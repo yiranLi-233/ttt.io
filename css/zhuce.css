@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+body{
+    font-size: 16px;
+    font-family: 微软雅黑;
+    background: #dcdcdc;
+}
+.nav{
+    background: #d0b275;
+    width: 100%;
+    height: 118px;
+    
+}
+.nav ul{
+    width: 980px;
+    margin: 0 auto;
+}
+.nav li{
+    float: left;
+
+}
+.nav a:link , .nav a:visited{
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+
+}
+.nav li a{
+    display: inline-block;
+    width: 119px;
+    height: 118px;
+   text-align: center;
+   line-height:118px;
+}
+.nav a:hover{
+    background: #9e8d69;
+}
+/* 注册内容容器 */
+.neirong{
+    width: 900px;
+    height: 450px;
+    background-color: #d0b275;
+    margin: 0 auto;
+    padding-top: 30px;
+    margin-top: 20px;/* 上边距 */
+    
+}
+
+/* 表单内边距设置 */
+.neirong_in{
+    margin: 0 auto;
+    padding-left: 150px;/* 左侧内边距 */
+}
+
+/* 表单标题样式 */
+.neirong_in h3{
+    color: #2c2929;
+    width: 450px;
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 80px;
+    border-bottom: 1px solid #030303;/* 下划线分隔 */
+}
+
+.neirong1{
+    padding-left: 60px;
+    color:  #2c2929;
+}
+/* 表格单元格样式 */
+.neirong2{
+    padding-top: 15px;/* 单元格上边距 */
+}
+/* 输入框样式 */
+.neirong3{
+    border: 1px solid #030303; 
+    height: 25px;
+    color: #2c2929;
+    width: 200px;
+ }
+ /* 提交按钮定位 */
+.tijiao{
+    margin: 0 auto;
+    padding-left: 200px;/* 水平定位 */
+    padding-top: 30px;/* 垂直间距 */
+}
+
+
+.yejiao{
+    width: 100%;
+    height: 90px;
+    background: #020202;
+    color: #fff;
+    line-height: 26px;
+    text-align: center;
+    padding-top: 30px;
+    margin-top: 65px;
+
+}

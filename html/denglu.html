@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <link rel="stylesheet" href="../css/denglu.css" type="text/css">
+     <!-- JavaScript函数：登录失败提示 -->
+    <script>
+        // 定义提示函数，弹出alert弹窗
+        function myFunction()
+        {
+            window.alert("登录失败，请重试")
+        }
+    </script>
+</body>
+    <!--导航-->
+    <div class="nav">
+        <ul>
+            <li><img src="../images/00logo.png" alt=""></li>
+             <!-- 首页链接：点击返回首页 -->
+            <li><a href="#" onclick="window.location.href='xiaoshuo.html'">首页</a></li>
+            <li><a href="#">书库</a></li>
+            <li><a href="#">我的书架</a></li>
+            <li><a href="#">作家专区</a></li>
+            <li><a href="#"  onclick="window.location.href='zhuce.html'">注册</a></li>
+            <li><a href="#">登录</a></li>
+            <p>25216950223 李逸然</p>
+        </ul>
+    </div>
+    <div>
+        <!-- 登录表单容器 -->
+        <div class="login">
+        <form action="" method="get">
+            <!-- 表格布局：使输入项对齐 -->
+            <table class="login1">
+                <tr>
+                    <td class="login2">账号：</td>
+                    <!-- 账号输入框：pattern限制11位数字，placeholder提示文字 -->
+                    <td class="login2"><input type="text"  pattern="^\d{11}$" placeholder="请输入账号" class="login3"></td>
+                </tr>
+                <tr >
+                    <td class="login2">密码：</td>
+                    <!-- 密码输入框：maxlength限制8位，隐藏输入内容 -->
+                    <td class="login2"><input type="password"  maxlength="8" placeholder="请输入密码" class="login3"></td>
+                </tr>
+            </table>
+             <!-- 登录按钮：图片按钮，点击触发提示函数 -->
+            <input type="image" src="../images/登录.png" class="login4" onclick="myFunction()">
+
+        </form>
+    </div></div>
+
+
+     <!-- 页脚：与首页一致 -->
+    <div class="yejiao">
+        <p>Copyright © 2020-2030 CHAOLIUFUSHIcom, All rights reserved.</p>
+        <p>2020-2030，版权所有 弈白小说 00CP备2222222222</p>
+    </div>
+    
+</html>
